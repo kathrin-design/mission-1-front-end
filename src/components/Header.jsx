@@ -10,7 +10,6 @@ const Header = () => {
     let profileToggler = document.querySelector(".profile-dropdown-btn");
     let dropdownMenu = document.querySelector(".dropdown-list");
     let dropdownToggler = document.querySelector(".dropdown-btn");
-
     const profileToggle = () => profileDropdownList.classList.toggle("active");
     const dropdownToggle = () => dropdownMenu.classList.toggle("show");
 
