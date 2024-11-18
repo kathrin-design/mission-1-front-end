@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles.css';
-import GoogleIcon from '../assets/google-icon.png';
+import '../styles.css';
+import GoogleIcon from '../../assets/google-icon.png';
 
 const BtnGoogle = ({ className, keyword }) => {
     return (

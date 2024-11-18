@@ -4,7 +4,7 @@ import FullStar from '../assets/full-star.png'
 import HalfStar from '../assets/half-star.png'
 import BlankStar from '../assets/blank-star.png'
 
-const Card = ({ card, avatar, classCard }) => {
+const Course = ({ card, avatar, classCard }) => {
    return (
     <div className={`p-3 d-flex flex-column bg-white border rounded-3 ${ classCard }`}>
         <img className="img-fluid" src={card} />
@@ -46,4 +46,4 @@ const Card = ({ card, avatar, classCard }) => {
    )
 }
 
-export default Card;
+export default Course;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const Hero = () => {
+const HeroCard = () => {
     return (
         <div className="d-flex flex-column justify-content-center align-items-center">
             <div className="hero py-5 rounded-3 border-0 d-flex flex-column justify-content-center align-items-center">
@@ -24,4 +24,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default HeroCard;

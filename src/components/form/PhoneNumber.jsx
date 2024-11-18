@@ -1,10 +1,10 @@
 import React from 'react';
-import IdnFlag from '../assets/idn-flag.png'
-import ArrowDown from '../assets/arrow-down.png'
+import IdnFlag from '../../assets/idn-flag.png';
+import ArrowDown from '../../assets/arrow-down.png';
 
-const NoHp = () => {
+const PhoneNumber = () => {
     return (
-        <div className="mb-3">
+        <div className="mt-2">
             <label className="text-secondary DM_Sans fs-6">
                 No. Hp
                 <span className="symbol fs-6 ms-1">*</span>
@@ -24,6 +24,9 @@ const NoHp = () => {
                 <div className="w-100 border rounded d-flex justify-content-center">
                     <input 
                         type="text"
+                        name="phoneNumber"
+                        id="phoneNumber"
+                        value="phoneNumber"
                         className="DM_Sans form-control border-0"
                         required />
                 </div>
@@ -32,4 +35,4 @@ const NoHp = () => {
     )
 }
 
-export default NoHp;
+export default PhoneNumber;

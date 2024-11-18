@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles.css';
-import EyeOff from '../assets/mdi_eye-off.png'
+import '../styles.css';
+import EyeOff from '../../assets/mdi_eye-off.png'
 
-const Password = ({ word }) => {
+const Password = ({ word, passwordValue, passwordOnChange }) => {
     return (
         <div className="mb-3">
             <label 
@@ -15,6 +15,10 @@ const Password = ({ word }) => {
             <div className="input_field border rounded d-flex flew-row">
                 <input 
                     type="password" 
+                    name="password"
+                    id="password"
+                    value={`${ passwordValue }`}
+                    onChange={`${ passwordOnChange }`}
                     placeholder="Enter Password" 
                     className="DM_Sans border-0 fs-6 form-control"
                     required

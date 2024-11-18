@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles.css';
+import '../styles.css';
 
-const Email = () => {
+const Email = ( emailValue, emailOnChange ) => {
     return(
         <div className="mb-2">
             <label 
@@ -12,8 +12,12 @@ const Email = () => {
             </label>
             <input 
                 type="email" 
+                name="email"
+                id="email"
                 placeholder="Enter Email" 
-                className="DM_Sans form-control" /> 
+                className="DM_Sans form-control"
+                value={`${ emailValue }`}
+                onChange={`${ emailOnChange }`} /> 
         </div>
     )
 }

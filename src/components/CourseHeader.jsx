@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const CardTitle = () => {
+const CourseHeader = () => {
     return (
         <div className="d-flex flex-column w-100 mt-4">
             <div className="d-flex flex-column">
@@ -40,4 +40,4 @@ const CardTitle = () => {
     )
 }
 
-export default CardTitle;
+export default CourseHeader;
